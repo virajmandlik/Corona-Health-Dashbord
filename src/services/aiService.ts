@@ -202,7 +202,7 @@ Continent: ${countryData.continent || "N/A"}
     const analysis = FALLBACK_RESPONSES.countryAnalysis[riskLevel.toLowerCase() as keyof typeof FALLBACK_RESPONSES.countryAnalysis];
     
     const keyMetrics = [
-      `${countryData.cases?.toLocaleString() || 0} total cases recorded`k,
+      `${countryData.cases?.toLocaleString() || 0} total cases recorded`,
       `${countryData.deathsPerOneMillion?.toLocaleString() || 0} deaths per million population`,
       `${countryData.testsPerOneMillion?.toLocaleString() || 0} tests per million conducted`
     ];
